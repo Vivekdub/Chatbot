@@ -29,7 +29,7 @@ class _ChatScreenState extends State<ChatScreen> {
       });
       _sent.add(input);
       final model1='gemini-pro';
-      final model = GenerativeModel(model: model1, apiKey: 'AIzaSyDquV0aGKlMl6vNIXMDFbvV1pfPW7kUQ4E');
+      final model = GenerativeModel(model: model1, apiKey: '');
       final chat=model.startChat(history: [
     Content.text("""Overall Goal: Be a supportive friend and companion who offers evidence-based advice and strategies for managing ASD symptoms.
 
