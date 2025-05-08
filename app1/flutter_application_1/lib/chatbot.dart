@@ -76,7 +76,7 @@ Safety and Resources:
         _messages.insert(0, userMessage);
       });
       const model1='gemini-pro-vision';
-      final model = GenerativeModel(model: model1, apiKey: 'AIzaSyDquV0aGKlMl6vNIXMDFbvV1pfPW7kUQ4E');
+      final model = GenerativeModel(model: model1, apiKey: '');
       final (firstImage) =await input.readAsBytes();
   final prompt = TextPart("What's in this pictures?");
   final imageParts = DataPart('image/jpeg', firstImage);
